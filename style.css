@@ -1,6 +1,13 @@
 body {
     background-color: gold;
 }
+.navbar .nav > li > a, .navbar .nav > li > a:first-letter,
+.navbar .nav > .current-menu-item > a, 
+.navbar .nav > .current-menu-ancestor > a {
+color:          black;                        
+font-family:'Shrikhand', cursive;
+font-size:      20px;
+}
 h2{
     font-family:'Shrikhand', cursive;
     text-align:center;
@@ -9,10 +16,12 @@ h2{
 	border-top: 7px dotted #000;
 	font-size:50px;
 	color:#101010;
+	
 }
 #paragraph1{
     font-size:14px;
     font-family: 'Shrikhand', cursive;
+    color:#101010;
 }
 
 .navbar-default {
@@ -27,7 +36,12 @@ h2{
     color:gold;
     background-color:black;
     text-align:center;
-    font-size:30px;
+    font-size:20px;
+    border: none;
+    padding: 15px 28px;
+    text-decoration: none;
+    display: inline-block;
+
 }
 .dropbtn{
     color:gold;
@@ -57,13 +71,25 @@ h3{
     left:0;
     width:100%;
 }
-.bar{
-    width:15%;
-}
 .navbar-nav{
 width:80%; 
 }
 
 .one{
     margin-right:30px;
+}
+.album{
+    font-family:'Shrikhand', cursive;
+}
+h4{
+    color:black;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 60px;
+
+}
+#info{
+    font-size:20px;
+    font-family:'PT Sans', sans-serif;
+    color:#606060;
+    border-bottom-style: solid;
 }
