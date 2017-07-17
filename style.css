@@ -1,4 +1,21 @@
-body {
+.home{
+    color:gold;
+}
+.music{
+    background-color:gold;
+    color:#101010;
+}
+.store{
+    background-color:gold;
+    color:#101010;
+}
+.calendar{
+    background-color:gold;
+}
+.photos{
+    background-color: gold;
+}
+.contact{
     background-color: gold;
 }
 .navbar .nav > li > a, .navbar .nav > li > a:first-letter,
@@ -15,13 +32,19 @@ h2{
 	box-shadow: inset 0 -3px 0 0 #000, 0 3px 0 0 #000;
 	border-top: 7px dotted #000;
 	font-size:50px;
-	color:#101010;
+	border-color:gold;
+	color:gold;
 	
+}
+.yung-court{
+    color:#101010;
+    border-color:#101010;
+    
 }
 #paragraph1{
     font-size:14px;
     font-family: 'Shrikhand', cursive;
-    color:#101010;
+    color:gold;
 }
 
 .navbar-default {
@@ -82,7 +105,7 @@ width:80%;
     font-family:'Shrikhand', cursive;
 }
 h4{
-    color:black;
+    color:gold;
     font-family: 'PT Sans', sans-serif;
     font-size: 60px;
 
@@ -90,6 +113,16 @@ h4{
 #info{
     font-size:20px;
     font-family:'PT Sans', sans-serif;
-    color:#606060;
+    color:gold;
     border-bottom-style: solid;
 }
+.contact{
+    font-family:'PT Sans', sans-serif;
+    color:#101010;
+    font-size:20px;
+}
+#carousel-photo{
+    height:100%;
+    width:100%;
+}
+
