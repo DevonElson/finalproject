@@ -42,10 +42,8 @@ h2{
     
 }
 #paragraph1{
-    font-size:14px;
-    font-family: 'Shrikhand', cursive;
-    color:gold;
 }
+
 
 .navbar-default {
     background-color: gold;
@@ -103,26 +101,53 @@ width:80%;
 }
 .album{
     font-family:'Shrikhand', cursive;
+    font-size:40px;
 }
 h4{
     color:gold;
     font-family: 'PT Sans', sans-serif;
     font-size: 60px;
+    /*position: absolute;*/
 
 }
+
 #info{
     font-size:20px;
     font-family:'PT Sans', sans-serif;
     color:gold;
-    border-bottom-style: solid;
 }
 .contact{
     font-family:'PT Sans', sans-serif;
     color:#101010;
     font-size:20px;
 }
-#carousel-photo{
-    height:100%;
-    width:100%;
+#album{
+ font-family:'PT Sans', sans-serif;
+  font-size:20px;
 }
 
+.bio{
+    color:gold;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 60px;
+    left: 0px;
+    bottom:40px;
+    z-index: -1;
+    background: rgba(255,255,255,.9);
+    padding:10px 10px 40px 20px;
+    
+}
+.paragraphs{
+    font-size:14px;
+    font-family: 'Shrikhand', cursive;
+    color:gold;
+    top:-50px;
+    z-index: 0;
+    background: rgba(144,144,144,.9);
+    margin:10px 10px 20px 20px;
+    padding:20px;
+    position:relative;
+}
+.home-info{
+    margin:20px 20px 20px 20px;
+}

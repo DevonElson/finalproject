@@ -1,6 +1,17 @@
+/* globals $ */
 $(document).ready(function(){
-    console.log("working")
-$("button").click(function(){
-    console.log("working")
+    $("#song").hide();
+    $("#secondsong").hide();
+    
+$("#guac").click(function(){
+    $("#secondsong").hide();
+    $("#song").show();
 });
+    
+$("#frose").click(function(){
+    $("#song").hide();
+    $("#secondsong").show();
+});
+ 
+
 });
