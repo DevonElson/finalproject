@@ -8,7 +8,9 @@
 <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
     <style>
     </style>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"><!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="style.css">
    <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
   <script src="script.js"></script>
@@ -32,7 +34,32 @@
   </div>
 </nav>
 
+<iframe id="calendar" src="https://calendar.google.com/calendar/embed?src=westinghousehs.org_nb3k4men0ku2j9eu2qph8ut19k%40group.calendar.google.com&ctz=America/New_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no" align="middle"></iframe>
 
+<h3>Come See Yung Court At A Concert Near You!</h3>
+<p id="concertinfo">Yung Court begins her tour Wednesday August 9th at the legendary Apollo Theater! Followed by Madison Square Garden Friday August 11th and the Brooklyn Bowl Thursday August 17th! Performing the songs that you love the most! Yung Court invites you to come and have fun with her!</p>
+ 
+ <div class="dropdown">
+    <button class="btn btn-lg btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Maps
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+      <li><a id="apollo"href="#">Apollo Theater</a></li>
+      <li><a id="msg" href="#">Madison Square Garden</a></li>
+      <li><a id="bowl" href="#">Brooklyn Bowl</a></li>
+    </ul>
+  </div>
+  
+  <iframe class="maps" id="map1" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3019.81686471823!2d-73.95224468485051!3d40.81001797932132!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2f66d3282a545%3A0x1ccd9839e39cdc2d!2sApollo+Theater!5e0!3m2!1sen!2sus!4v1500476605216" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+ 
+   <iframe class="maps" id="map2"src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.523722205069!2d-73.99562738485258!3d40.75050447932766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a21fb011c85%3A0x33df10e49762f8e4!2sMadison+Square+Garden!5e0!3m2!1sen!2sus!4v1500478037995" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+  <iframe class="maps" id="map3"src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.8244324123048!2d-73.95958338485354!3d40.721881279330745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25942cb56b8d1%3A0x541fc9a7033e19c7!2sBrooklyn+Bowl!5e0!3m2!1sen!2sus!4v1500478170536" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>  
+
+  <img id="apolloimg" src="http://www.oberlinheritagecenter.org/files/whatsnew/attachments/Apollo_Theater.jpg">
+
+  <img id="msgimg" src="https://www.nycgo.com/images/venues/98/madisonsquaregarden-courtesymsg-b70005-rtw__x_large.jpg">
+
+  <img id="bowlimg" src="http://nevadamagazine.com/home/wp-content/uploads/2015/03/BrooklynBowl-Music_Brooklyn-Bowl-Las-Vegas-credit.jpg">
 
 </body>
 </html>
