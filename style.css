@@ -45,9 +45,10 @@ h2{
 }
 
 
-.navbar-default {
+.navbar-default{
     background-color: gold;
     border-color: gold;
+    width:100%;
 }
 #album{
     font-family:'Shrikhand', cursive;
@@ -93,8 +94,8 @@ h3{
     width:100%;
 }
 .navbar-nav{
-width:80%; 
-background-color:white; 
+width:90%; 
+background-color:gold; 
 }
 
 .one{
@@ -156,6 +157,7 @@ h4{
 }
 .beyonce-image{
     text-align:center;
+    
 }
 .store-image{
     text-align:center;
@@ -209,4 +211,41 @@ h4{
      float:right;
      padding:left;
      width:400px;
+}
+
+#clothes{
+    width:400px;
+}
+
+.items{
+    font-size:20px; 
+    color:black;
+    text-align:center; 
+}
+.clothes{
+    width:400px;
+    background-color:black;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 20px;
+    
+}
+#album-price{
+    font-size:30px;
+    background-color:black;
+    color:gold;
+    margin:0px 331px 0px 331px;
+}
+.jumbotron{
+    background-color:black;
+    color:gold;
+    font-family:'PT Sans', sans-serif;
+}
+#music-label{
+    color:black;
+}
+#mycarousel{
+    height:500px;
+    width:500px;
 }
