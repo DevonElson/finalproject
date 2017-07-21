@@ -66,4 +66,17 @@ $("#apollo").click(function(){
             $("#msgimg").hide();
             $("#bowlimg").show();
         });
+        
+        $("#photo2").hide();
+        
+        
+        $("#frose").click(function(){
+           $("#photo1").hide();
+           $("#photo2").show();
+        });
+        
+        $("#guac").click(function(){
+            $("#photo2").hide();
+            $("#photo1").show();
+        });
 });
